@@ -19,6 +19,10 @@ public class Planet {
         this.terrain = terrain;
         this.climate = climate;
     }
+    public Planet( String terrain, String climate) {
+        this.terrain = terrain;
+        this.climate = climate;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
